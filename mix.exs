@@ -30,7 +30,7 @@ defmodule Plug.Session.CREAM.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:cream, ">= 0.1.0", git: "https://github.com/cjbottaro/cream_ex.git"}
+      {:cream, ">= 0.1.0"}
     ]
   end
 end
