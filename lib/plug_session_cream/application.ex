@@ -21,7 +21,7 @@ defmodule Plug.Session.CREAM.Application do
   end
 
   defp children do
-    children(Application.get_env(:cream, :cache))
+    children(Application.get_env(:plug_session_cream, :cache))
   end
 
   defp children(nil) do
